@@ -64,6 +64,13 @@ namespace ClientApp
                         Console.WriteLine(b);
                     }
 
+                    else if (rez == "3")
+                    {
+                        Console.WriteLine("Enter Folder name:");
+                        string rez2 = Console.ReadLine();
+                        proxy.CreateFolder(rez2);
+                    }
+
                 }
             }
                     Console.ReadLine();

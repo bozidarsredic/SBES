@@ -151,6 +151,61 @@ namespace ServiceApp
             return encMessage;
         }
 
+
+        public void CreateFolder(string folderName)
+        {
+            Console.WriteLine("Currently logged in:" + WindowsIdentity.GetCurrent().Name);
+
+            CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
+            string userName = Formatter.ParseName(principal.Identity.Name);
+
+            if (Thread.CurrentPrincipal.IsInRole("change"))
+            {
+
+                //  Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name}");
+                Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5)}");
+
+
+                var absolute_path = Path.Combine(folderName);
+
+                if (!System.IO.Directory.Exists(folderName))
+                {
+                    System.IO.Directory.CreateDirectory(folderName);
+                }
+
+
+                try
+                {
+                    Audit.AuthorizationSuccess(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+            }
+            else
+            {
+                try
+                {
+                    Audit.AuthorizationFailed(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action, "CreateFolder method need Change permission.");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+                throw new FaultException("User " + userName +
+                    " try to call CreateFolder method. CreateFolder method need  Change permission.");
+            }
+
+
+
+        }
+
+
         //OVDJE DODAJ
 
 
