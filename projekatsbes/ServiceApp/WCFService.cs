@@ -248,13 +248,6 @@ namespace ServiceApp
                 {
                     Console.WriteLine(e.Message);
                 }
-
-
-
-
-
-
-
             }
             else
             {
@@ -271,12 +264,56 @@ namespace ServiceApp
                 throw new FaultException("User " + userName +
                     " try to call CreateFile method. CreateFile method need  Change permission.");
             }
-
-
-
         }
 
+        public void Delete(string fileName)
+        {
+            CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
+            string userName = Formatter.ParseName(principal.Identity.Name);
 
+            if (Thread.CurrentPrincipal.IsInRole("delete"))
+            {
+
+                Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5)}");
+
+                if (File.Exists(fileName))
+                {
+                    File.Delete(fileName);
+                    Console.WriteLine("File deleted");
+
+                }
+                else
+                {
+
+                    throw new FaultException("File doesn`t exist");
+                }
+                try
+                {
+                    Audit.AuthorizationSuccess(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+            }
+            else
+            {
+                try
+                {
+                    Audit.AuthorizationFailed(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action, "Delete method need Delete permission.");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+                throw new FaultException("User " + userName +
+                    " try to call Delete method. Delete method need  Delete permission.");
+            }
+        }
         //OVDJE DODAJ
 
 

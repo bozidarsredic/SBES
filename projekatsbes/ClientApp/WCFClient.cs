@@ -106,8 +106,19 @@ namespace ClientApp
                 Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
             }
         }
+        public void Delete(string fileName)
+        {
+            try
+            {
+                factory.Delete(fileName);
+                Console.WriteLine("Delete allowed.");
+            }
+            catch (SecurityAccessDeniedException e)
+            {
+                Console.WriteLine("Error while trying to Delete. Error message : {0}", e.Message);
+            }
 
-
+        }
 
         //IZNAD METODE
 

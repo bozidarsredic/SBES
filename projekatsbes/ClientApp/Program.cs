@@ -79,6 +79,12 @@ namespace ClientApp
                         string rez3 = Console.ReadLine();
                         proxy.CreateFile(rez2, rez3);
                     }
+                    else if (rez == "5")
+                    {
+                        Console.WriteLine("Enter file name:");
+                        string rez2 = Console.ReadLine();
+                        proxy.Delete(rez2);
+                    }
 
                 }
             }
