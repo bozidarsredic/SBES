@@ -133,6 +133,18 @@ namespace ClientApp
         }
 
 
+        public void MoveTo(string startFoloder, string destinationFoloder)
+        {
+            try
+            {
+                factory.MoveTo(startFoloder, destinationFoloder);
+                Console.WriteLine("MoveTo allowed.");
+            }
+            catch (SecurityAccessDeniedException e)
+            {
+                Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
+            }
+        }
 
 
         //IZNAD METODE

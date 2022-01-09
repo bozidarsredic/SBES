@@ -373,6 +373,69 @@ namespace ServiceApp
             }
 
         }
+
+        [OperationBehavior(Impersonation = ImpersonationOption.Required)]
+        public void MoveTo(string startFoloder, string destinationFoloder)
+        {
+
+
+            CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
+            string userName = Formatter.ParseName(principal.Identity.Name);
+
+            if (Thread.CurrentPrincipal.IsInRole("change"))
+            {
+                //  Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name}");
+                Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5)}");
+
+
+
+                try
+                {
+
+                    if (Directory.Exists(startFoloder))
+                    {
+                        foreach (var file in new DirectoryInfo(startFoloder).GetFiles())
+                        {
+                            file.MoveTo($@"{destinationFoloder}\{file.Name}");
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    throw new FaultException("Folder doesn`t exist");
+
+
+                }
+
+
+                try
+                {
+                    Audit.AuthorizationSuccess(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+            }
+            else
+            {
+                try
+                {
+                    Audit.AuthorizationFailed(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action, "Rename method need Change permission.");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+                throw new FaultException("User " + userName +
+                    " try to call Rename method. Rename method need  Change permission.");
+            }
+        }
+
         //OVDJE DODAJ
 
 

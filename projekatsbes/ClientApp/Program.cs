@@ -93,6 +93,18 @@ namespace ClientApp
                         string rez3 = Console.ReadLine();
                         proxy.Rename(rez2, rez3);
                     }
+                    else if (rez == "7")
+                    {
+                        Console.WriteLine("Enter startFolder name:");
+                        string rez2 = Console.ReadLine();
+                        Console.WriteLine("Enter destinationFolder name:");
+                        string rez3 = Console.ReadLine();
+                        proxy.MoveTo(rez2, rez3);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Method doesn't exist");
+                    }
 
                 }
             }
