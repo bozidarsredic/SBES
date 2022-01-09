@@ -34,8 +34,27 @@ namespace ClientApp
 			this.Close();
 		}
 
-        
 
-      
+
+        public string ShowFolderContent(string folderName)
+        {
+            string a = "";
+            try
+            {
+
+                a = factory.ShowFolderContent(folderName);
+
+            }
+            catch (SecurityAccessDeniedException e)
+            {
+                Console.WriteLine("Error while trying to Show. Error message : {0}", e.Message);
+            }
+
+            return a;
+        }
+
+
+
+
     }
 }

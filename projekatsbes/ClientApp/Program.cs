@@ -47,6 +47,15 @@ namespace ClientApp
                 using (WCFClient proxy = new WCFClient(binding, endpointAddress))
                 {
 
+                    if (rez == "1")
+                    {
+                        Console.WriteLine("Enter Folder name:");
+                        string rez2 = Console.ReadLine();
+                        string a = proxy.ShowFolderContent(rez2);
+                        Console.WriteLine("List:\n");
+                        Console.WriteLine(a);
+                    }
+
                 }
             }
                     Console.ReadLine();

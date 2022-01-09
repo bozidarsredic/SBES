@@ -38,7 +38,9 @@ namespace Contracts
 
         [OperationContract]
         [FaultContract(typeof(SecurityException))]
-        void MoveTo(string startFoloder, string destinationFoloder);
+        void MoveTo(string startFoloder, string destinationFoloder);  
+
+
 
     }
 }
