@@ -71,6 +71,15 @@ namespace ClientApp
                         proxy.CreateFolder(rez2);
                     }
 
+                    else if (rez == "4")
+                    {
+                        Console.WriteLine("Enter file name:");
+                        string rez2 = Console.ReadLine();
+                        Console.WriteLine("Enter file text:");
+                        string rez3 = Console.ReadLine();
+                        proxy.CreateFile(rez2, rez3);
+                    }
+
                 }
             }
                     Console.ReadLine();

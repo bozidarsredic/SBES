@@ -205,6 +205,77 @@ namespace ServiceApp
 
         }
 
+        public void CreateFile(string fileName, string text)
+        {
+
+            string a = "";
+            CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
+            string userName = Formatter.ParseName(principal.Identity.Name);
+
+            if (Thread.CurrentPrincipal.IsInRole("change"))
+            {
+                //  string name = WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5);
+                Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5)}");
+                try
+                {
+                    string key = "ow7dxys8glfor9tnc2ansdfo1etkfjcv";
+
+                    string ivstring = "qo1lc3sjd8zpt9cx";
+                    ;
+                    a = AES_Decrypt_CBC(text, key, ivstring);
+                    Console.WriteLine("kriptovan:" + text);
+                    Console.WriteLine("dekriptovan:" + a);
+                    StreamWriter sw = File.CreateText(fileName);
+                    sw.WriteLine(a);
+
+                    sw.Close();
+
+
+
+                }
+                catch (Exception e)
+                {
+                    throw new FaultException<SecurityException>(new SecurityException(e.Message));
+                }
+
+
+                try
+                {
+                    Audit.AuthorizationSuccess(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+
+
+
+
+
+
+            }
+            else
+            {
+                try
+                {
+                    Audit.AuthorizationFailed(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action, "CreateFile method need Change permission.");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+                throw new FaultException("User " + userName +
+                    " try to call CreateFile method. CreateFile method need  Change permission.");
+            }
+
+
+
+        }
+
 
         //OVDJE DODAJ
 
@@ -225,6 +296,33 @@ namespace ServiceApp
             byte[] enc = icrypt.TransformFinalBlock(textbytes, 0, textbytes.Length);
             icrypt.Dispose();
             return Convert.ToBase64String(enc);
+        }
+
+        public static string AES_Decrypt_CBC(string cipherData, string keyString, string ivString)
+        {
+            byte[] key = Encoding.UTF8.GetBytes(keyString);
+            byte[] iv = Encoding.UTF8.GetBytes(ivString);
+
+            try
+            {
+                using (var rijndaelManaged =
+                new RijndaelManaged { Key = key, IV = iv, Mode = CipherMode.CBC })
+                using (var memoryStream =
+                new MemoryStream(Convert.FromBase64String(cipherData)))
+                using (var cryptoStream =
+                new CryptoStream(memoryStream,
+                rijndaelManaged.CreateDecryptor(key, iv),
+                CryptoStreamMode.Read))
+                {
+                    return new StreamReader(cryptoStream).ReadToEnd();
+                }
+            }
+            catch (CryptographicException e)
+            {
+                Console.WriteLine("A Cryptographic error occurred: {0}", e.Message);
+                return null;
+            }
+            // You may want to catch more exceptions here...
         }
 
     }

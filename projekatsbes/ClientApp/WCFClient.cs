@@ -92,6 +92,21 @@ namespace ClientApp
             }
         }
 
+        public void CreateFile(string fileName, string text)
+        {
+            try
+            {
+                string encMessage = Encryp(text);
+
+                factory.CreateFile(fileName, encMessage);
+                Console.WriteLine("Create allowed.");
+            }
+            catch (SecurityAccessDeniedException e)
+            {
+                Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
+            }
+        }
+
 
 
         //IZNAD METODE
@@ -121,6 +136,24 @@ namespace ClientApp
                 return null;
             }
             // You may want to catch more exceptions here...
+        }
+
+        public static string Encryp(string decrypted)
+        {
+            string IV = "qo1lc3sjd8zpt9cx";  //16 chars = 128 bytes
+            string Key = "ow7dxys8glfor9tnc2ansdfo1etkfjcv"; // 32 chars = 256 bytes
+            byte[] textbytes = UnicodeEncoding.ASCII.GetBytes(decrypted);
+            AesCryptoServiceProvider encdec = new AesCryptoServiceProvider();
+            encdec.BlockSize = 128;
+            encdec.KeySize = 256;
+            encdec.Key = ASCIIEncoding.ASCII.GetBytes(Key);
+            encdec.IV = ASCIIEncoding.ASCII.GetBytes(IV);
+            encdec.Padding = PaddingMode.PKCS7;
+            encdec.Mode = CipherMode.CBC;
+            ICryptoTransform icrypt = encdec.CreateEncryptor(encdec.Key, encdec.IV);
+            byte[] enc = icrypt.TransformFinalBlock(textbytes, 0, textbytes.Length);
+            icrypt.Dispose();
+            return Convert.ToBase64String(enc);
         }
 
     }
