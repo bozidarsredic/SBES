@@ -314,6 +314,65 @@ namespace ServiceApp
                     " try to call Delete method. Delete method need  Delete permission.");
             }
         }
+
+        [OperationBehavior(Impersonation = ImpersonationOption.Required)]
+        public void Rename(string oldFileName, string newFileName)
+        {
+
+
+            CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
+            string userName = Formatter.ParseName(principal.Identity.Name);
+
+            if (Thread.CurrentPrincipal.IsInRole("change"))
+            {
+                //  Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name}");
+                string a = WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5);
+                Console.WriteLine($"Process Identity:{a}");
+
+
+                try
+                {
+
+
+                    System.IO.File.Move(oldFileName, newFileName);
+
+                }
+                catch (Exception)
+                {
+                    throw new FaultException("File doesn`t exist");
+
+
+                }
+
+
+                try
+                {
+                    Audit.AuthorizationSuccess(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+            }
+            else
+            {
+                try
+                {
+                    Audit.AuthorizationFailed(userName,
+                        OperationContext.Current.IncomingMessageHeaders.Action, "Rename method need Change permission.");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+                throw new FaultException("User " + userName +
+                    " try to call Rename method. Rename method need  Change permission.");
+            }
+
+        }
         //OVDJE DODAJ
 
 

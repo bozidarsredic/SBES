@@ -85,6 +85,14 @@ namespace ClientApp
                         string rez2 = Console.ReadLine();
                         proxy.Delete(rez2);
                     }
+                    else if (rez == "6")
+                    {
+                        Console.WriteLine("Enter old file name:");
+                        string rez2 = Console.ReadLine();
+                        Console.WriteLine("Enter new file name:");
+                        string rez3 = Console.ReadLine();
+                        proxy.Rename(rez2, rez3);
+                    }
 
                 }
             }

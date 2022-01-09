@@ -117,8 +117,23 @@ namespace ClientApp
             {
                 Console.WriteLine("Error while trying to Delete. Error message : {0}", e.Message);
             }
-
         }
+
+        public void Rename(string oldFileName, string newFileName)
+        {
+            try
+            {
+                factory.Rename(oldFileName, newFileName);
+                Console.WriteLine("Rename allowed.");
+            }
+            catch (SecurityAccessDeniedException e)
+            {
+                Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
+            }
+        }
+
+
+
 
         //IZNAD METODE
 
