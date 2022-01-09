@@ -42,15 +42,3 @@ C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debu
 C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.dll
 C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.pdb
 C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\bin\x64\Debug\Contracts.dll
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\bin\x64\Debug\Contracts.pdb
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.dll
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.pdb
-C:\Users\Lenovo\SBES\projekatsbes\Contracts\bin\x64\Debug\Contracts.dll
-C:\Users\Lenovo\SBES\projekatsbes\Contracts\bin\x64\Debug\Contracts.pdb
-C:\Users\Lenovo\SBES\projekatsbes\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
-C:\Users\Lenovo\SBES\projekatsbes\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\SBES\projekatsbes\Contracts\obj\x64\Debug\Contracts.dll
-C:\Users\Lenovo\SBES\projekatsbes\Contracts\obj\x64\Debug\Contracts.pdb

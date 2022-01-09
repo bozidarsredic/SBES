@@ -34,16 +34,16 @@ namespace ClientApp
 			this.Close();
 		}
 
-
+        
 
         public string ShowFolderContent(string folderName)
         {
             string a = "";
             try
             {
-
-                a = factory.ShowFolderContent(folderName);
-
+               
+               a=  factory.ShowFolderContent(folderName);
+               
             }
             catch (SecurityAccessDeniedException e)
             {
@@ -53,21 +53,21 @@ namespace ClientApp
             return a;
         }
 
-        public string ReadFile(string fileName)
+        public string  ReadFile(string fileName)
         {
-            string rez3 = "";
+            string rez3="";
             try
             {
-                string encMessage = factory.ReadFile(fileName);
+                string encMessage =  factory.ReadFile(fileName);
                 Console.WriteLine("Crypted Content:");
                 Console.WriteLine(encMessage);
 
-
+               
                 string key = "ow7dxys8glfor9tnc2ansdfo1etkfjcv";
-
+               
                 string ivstring = "qo1lc3sjd8zpt9cx";
 
-                rez3 = AES_Decrypt_CBC(encMessage, key, ivstring);
+                 rez3 = AES_Decrypt_CBC(encMessage, key, ivstring);
 
 
             }
@@ -92,13 +92,13 @@ namespace ClientApp
             }
         }
 
-        public void CreateFile(string fileName, string text)
+        public void CreateFile(string fileName,string text)
         {
             try
             {
-                string encMessage = Encryp(text);
+              string  encMessage = Encryp(text);
 
-                factory.CreateFile(fileName, encMessage);
+                factory.CreateFile(fileName,encMessage);
                 Console.WriteLine("Create allowed.");
             }
             catch (SecurityAccessDeniedException e)
@@ -106,24 +106,30 @@ namespace ClientApp
                 Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
             }
         }
+
         public void Delete(string fileName)
         {
             try
             {
                 factory.Delete(fileName);
                 Console.WriteLine("Delete allowed.");
+                    
+               
+                
+
             }
             catch (SecurityAccessDeniedException e)
             {
                 Console.WriteLine("Error while trying to Delete. Error message : {0}", e.Message);
             }
+           
         }
 
         public void Rename(string oldFileName, string newFileName)
         {
             try
             {
-                factory.Rename(oldFileName, newFileName);
+                factory.Rename( oldFileName,  newFileName);
                 Console.WriteLine("Rename allowed.");
             }
             catch (SecurityAccessDeniedException e)
@@ -131,7 +137,6 @@ namespace ClientApp
                 Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
             }
         }
-
 
         public void MoveTo(string startFoloder, string destinationFoloder)
         {
@@ -146,8 +151,6 @@ namespace ClientApp
             }
         }
 
-
-        //IZNAD METODE
 
         public static string AES_Decrypt_CBC(string cipherData, string keyString, string ivString)
         {
@@ -176,6 +179,7 @@ namespace ClientApp
             // You may want to catch more exceptions here...
         }
 
+
         public static string Encryp(string decrypted)
         {
             string IV = "qo1lc3sjd8zpt9cx";  //16 chars = 128 bytes
@@ -193,6 +197,5 @@ namespace ClientApp
             icrypt.Dispose();
             return Convert.ToBase64String(enc);
         }
-
     }
 }

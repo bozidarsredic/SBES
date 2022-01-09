@@ -67,13 +67,3 @@ C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debu
 C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.exe
 C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.pdb
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.exe.config
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.exe
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.pdb
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\Contracts.dll
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\Contracts.pdb
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csprojAssemblyReference.cache
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.exe
-C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.pdb

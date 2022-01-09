@@ -18,7 +18,7 @@ namespace ServiceApp
 	public class WCFService : IWCFService
 	{
 
-
+     
         public string ShowFolderContent(string folderName)
         {
 
@@ -34,7 +34,7 @@ namespace ServiceApp
 
 
                 var dir = Path.Combine(folderName);
-                b = PrintDirectoryTree(dir, 2, new string[] { "folder3" });
+                b= PrintDirectoryTree(dir, 2, new string[] { "folder3" });
 
                 try
                 {
@@ -67,7 +67,6 @@ namespace ServiceApp
             return b;
 
         }
-
         public static string PrintDirectoryTree(string directory, int lvl, string[] excludedFolders = null, string lvlSeperator = "")
         {
             string a = "";
@@ -75,13 +74,13 @@ namespace ServiceApp
 
             foreach (string f in Directory.GetFiles(directory))
             {
-                //              Console.WriteLine(lvlSeperator + Path.GetFileName(f));
-                a += lvlSeperator + Path.GetFileName(f) + "\n";
+//              Console.WriteLine(lvlSeperator + Path.GetFileName(f));
+                a += lvlSeperator + Path.GetFileName(f)+"\n";
             }
 
             foreach (string d in Directory.GetDirectories(directory))
             {
-                // Console.WriteLine(lvlSeperator + "-" + Path.GetFileName(d));
+               // Console.WriteLine(lvlSeperator + "-" + Path.GetFileName(d));
                 a += lvlSeperator + Path.GetFileName(d) + "\n";
 
                 if (lvl > 0 && Array.IndexOf(excludedFolders, Path.GetFileName(d)) < 0)
@@ -93,7 +92,7 @@ namespace ServiceApp
             return a;
         }
 
-        public string ReadFile(string fileName)
+            public string  ReadFile(string fileName)
         {
             CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
             string userName = Formatter.ParseName(principal.Identity.Name);
@@ -106,11 +105,11 @@ namespace ServiceApp
 
                 if (File.Exists(fileName))
                 {
-
-
+                    
+                   
                     string text = System.IO.File.ReadAllText(fileName);
                     //Console.WriteLine(text);
-
+                  
                     encMessage = Encryp(text);
 
                 }
@@ -151,7 +150,26 @@ namespace ServiceApp
             return encMessage;
         }
 
+        public static string Encryp(string decrypted)
+        {
+            string IV = "qo1lc3sjd8zpt9cx";  //16 chars = 128 bytes
+            string Key = "ow7dxys8glfor9tnc2ansdfo1etkfjcv"; // 32 chars = 256 bytes
+            byte[] textbytes = UnicodeEncoding.ASCII.GetBytes(decrypted);
+            AesCryptoServiceProvider encdec = new AesCryptoServiceProvider();
+            encdec.BlockSize = 128;
+            encdec.KeySize = 256;
+            encdec.Key = ASCIIEncoding.ASCII.GetBytes(Key);
+            encdec.IV = ASCIIEncoding.ASCII.GetBytes(IV);
+            encdec.Padding = PaddingMode.PKCS7;
+            encdec.Mode = CipherMode.CBC;
+            ICryptoTransform icrypt = encdec.CreateEncryptor(encdec.Key, encdec.IV);
+            byte[] enc = icrypt.TransformFinalBlock(textbytes, 0, textbytes.Length);
+            icrypt.Dispose();
+            return Convert.ToBase64String(enc);
+        }
 
+
+      
         public void CreateFolder(string folderName)
         {
             Console.WriteLine("Currently logged in:" + WindowsIdentity.GetCurrent().Name);
@@ -167,13 +185,13 @@ namespace ServiceApp
 
 
                 var absolute_path = Path.Combine(folderName);
+                
+                    if (!System.IO.Directory.Exists(folderName))
+                    {
+                        System.IO.Directory.CreateDirectory(folderName);
+                    }
 
-                if (!System.IO.Directory.Exists(folderName))
-                {
-                    System.IO.Directory.CreateDirectory(folderName);
-                }
-
-
+                
                 try
                 {
                     Audit.AuthorizationSuccess(userName,
@@ -204,17 +222,17 @@ namespace ServiceApp
 
 
         }
-
-        public void CreateFile(string fileName, string text)
+    
+        public void CreateFile(string fileName,string text)
         {
 
             string a = "";
-            CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
+                  CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
             string userName = Formatter.ParseName(principal.Identity.Name);
 
             if (Thread.CurrentPrincipal.IsInRole("change"))
             {
-                //  string name = WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5);
+              //  string name = WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5);
                 Console.WriteLine($"Process Identity:{WindowsIdentity.GetCurrent().Name.Substring(5, WindowsIdentity.GetCurrent().Name.Length - 5)}");
                 try
                 {
@@ -223,15 +241,15 @@ namespace ServiceApp
                     string ivstring = "qo1lc3sjd8zpt9cx";
                     ;
                     a = AES_Decrypt_CBC(text, key, ivstring);
-                    Console.WriteLine("kriptovan:" + text);
+                    Console.WriteLine("kriptovan:"+text);
                     Console.WriteLine("dekriptovan:" + a);
                     StreamWriter sw = File.CreateText(fileName);
                     sw.WriteLine(a);
-
+                 
                     sw.Close();
 
-
-
+                   
+                   
                 }
                 catch (Exception e)
                 {
@@ -248,6 +266,13 @@ namespace ServiceApp
                 {
                     Console.WriteLine(e.Message);
                 }
+
+
+
+
+
+
+
             }
             else
             {
@@ -264,10 +289,16 @@ namespace ServiceApp
                 throw new FaultException("User " + userName +
                     " try to call CreateFile method. CreateFile method need  Change permission.");
             }
-        }
 
+           
+
+        }
+   
         public void Delete(string fileName)
         {
+
+           
+
             CustomPrincipal principal = Thread.CurrentPrincipal as CustomPrincipal;
             string userName = Formatter.ParseName(principal.Identity.Name);
 
@@ -282,11 +313,12 @@ namespace ServiceApp
                     Console.WriteLine("File deleted");
 
                 }
-                else
-                {
+                else {
 
                     throw new FaultException("File doesn`t exist");
                 }
+
+
                 try
                 {
                     Audit.AuthorizationSuccess(userName,
@@ -313,10 +345,12 @@ namespace ServiceApp
                 throw new FaultException("User " + userName +
                     " try to call Delete method. Delete method need  Delete permission.");
             }
-        }
 
+
+        }
+      
         [OperationBehavior(Impersonation = ImpersonationOption.Required)]
-        public void Rename(string oldFileName, string newFileName)
+        public void Rename(string oldFileName,string newFileName)
         {
 
 
@@ -332,16 +366,16 @@ namespace ServiceApp
 
                 try
                 {
-
+                   
 
                     System.IO.File.Move(oldFileName, newFileName);
 
                 }
-                catch (Exception)
+                catch (Exception )
                 {
                     throw new FaultException("File doesn`t exist");
-
-
+                
+                
                 }
 
 
@@ -373,7 +407,6 @@ namespace ServiceApp
             }
 
         }
-
         [OperationBehavior(Impersonation = ImpersonationOption.Required)]
         public void MoveTo(string startFoloder, string destinationFoloder)
         {
@@ -404,7 +437,7 @@ namespace ServiceApp
                 {
                     throw new FaultException("Folder doesn`t exist");
 
-
+                 
                 }
 
 
@@ -434,27 +467,6 @@ namespace ServiceApp
                 throw new FaultException("User " + userName +
                     " try to call Rename method. Rename method need  Change permission.");
             }
-        }
-
-        //OVDJE DODAJ
-
-
-        public static string Encryp(string decrypted)
-        {
-            string IV = "qo1lc3sjd8zpt9cx";  //16 chars = 128 bytes
-            string Key = "ow7dxys8glfor9tnc2ansdfo1etkfjcv"; // 32 chars = 256 bytes
-            byte[] textbytes = UnicodeEncoding.ASCII.GetBytes(decrypted);
-            AesCryptoServiceProvider encdec = new AesCryptoServiceProvider();
-            encdec.BlockSize = 128;
-            encdec.KeySize = 256;
-            encdec.Key = ASCIIEncoding.ASCII.GetBytes(Key);
-            encdec.IV = ASCIIEncoding.ASCII.GetBytes(IV);
-            encdec.Padding = PaddingMode.PKCS7;
-            encdec.Mode = CipherMode.CBC;
-            ICryptoTransform icrypt = encdec.CreateEncryptor(encdec.Key, encdec.IV);
-            byte[] enc = icrypt.TransformFinalBlock(textbytes, 0, textbytes.Length);
-            icrypt.Dispose();
-            return Convert.ToBase64String(enc);
         }
 
         public static string AES_Decrypt_CBC(string cipherData, string keyString, string ivString)

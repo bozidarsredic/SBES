@@ -46,38 +46,35 @@ namespace ClientApp
 
                 using (WCFClient proxy = new WCFClient(binding, endpointAddress))
                 {
-
                     if (rez == "1")
                     {
                         Console.WriteLine("Enter Folder name:");
                         string rez2 = Console.ReadLine();
-                        string a = proxy.ShowFolderContent(rez2);
+                       string a= proxy.ShowFolderContent(rez2);
                         Console.WriteLine("List:\n");
-                        Console.WriteLine(a);
+                        Console.WriteLine(a); 
                     }
                     else if (rez == "2")
                     {
                         Console.WriteLine("Enter File name:");
                         string rez2 = Console.ReadLine();
-                        string b = proxy.ReadFile(rez2);
+                        string b= proxy.ReadFile(rez2);
                         Console.WriteLine("Content:\n");
                         Console.WriteLine(b);
                     }
-
                     else if (rez == "3")
                     {
                         Console.WriteLine("Enter Folder name:");
                         string rez2 = Console.ReadLine();
                         proxy.CreateFolder(rez2);
                     }
-
                     else if (rez == "4")
                     {
                         Console.WriteLine("Enter file name:");
                         string rez2 = Console.ReadLine();
                         Console.WriteLine("Enter file text:");
                         string rez3 = Console.ReadLine();
-                        proxy.CreateFile(rez2, rez3);
+                        proxy.CreateFile(rez2,rez3);
                     }
                     else if (rez == "5")
                     {
@@ -91,7 +88,7 @@ namespace ClientApp
                         string rez2 = Console.ReadLine();
                         Console.WriteLine("Enter new file name:");
                         string rez3 = Console.ReadLine();
-                        proxy.Rename(rez2, rez3);
+                        proxy.Rename(rez2,rez3);
                     }
                     else if (rez == "7")
                     {
@@ -100,7 +97,7 @@ namespace ClientApp
                         Console.WriteLine("Enter destinationFolder name:");
                         string rez3 = Console.ReadLine();
                         proxy.MoveTo(rez2, rez3);
-                    }
+                    }                  
                     else
                     {
                         Console.WriteLine("Method doesn't exist");
@@ -108,7 +105,18 @@ namespace ClientApp
 
                 }
             }
-                    Console.ReadLine();
+
+
+   //         using (WCFClient proxy = new WCFClient(binding, new EndpointAddress(new Uri(address))))
+			//{
+			//	proxy.Read();
+   //             proxy.Modify();
+   //             //proxy.Delete();
+			//}
+
+
+
+			Console.ReadLine();
 		}
 	}
 }
