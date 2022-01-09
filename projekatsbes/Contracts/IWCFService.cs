@@ -12,8 +12,6 @@ namespace Contracts
     public interface IWCFService
     {
 
-
-
         [OperationContract]
         [FaultContract(typeof(SecurityException))]
         string ReadFile(string fileName);
@@ -25,6 +23,22 @@ namespace Contracts
         [OperationContract]
         [FaultContract(typeof(SecurityException))]
         void Rename(string oldFileName, string newFileName);
+
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        string ShowFolderContent(string folderName);
+
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        void CreateFolder(string folderName);
+
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        void CreateFile(string fileName, string text);
+
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        void MoveTo(string startFoloder, string destinationFoloder);
 
     }
 }
