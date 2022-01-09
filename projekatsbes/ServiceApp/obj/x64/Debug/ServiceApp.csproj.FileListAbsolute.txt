@@ -92,3 +92,15 @@ C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp
 C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.exe
 C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.exe.config
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\SecurityManager.dll
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\SBES\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.pdb
