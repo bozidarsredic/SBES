@@ -11,8 +11,18 @@ namespace Contracts
     [ServiceContract]
     public interface IWCFService
     {
-        
 
-      
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        string ReadFile(string fileName);
+
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        void Delete(string fileName);
+
+        [OperationContract]
+        [FaultContract(typeof(SecurityException))]
+        void Rename(string oldFileName, string newFileName);
+
     }
 }
