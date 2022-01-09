@@ -1,0 +1,94 @@
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\bin\x64\Debug\ServiceApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\bin\x64\Debug\SecurityManager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\obj\x64\Debug\ServiceApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\AccessControls\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Admin\Desktop\VEZBE 2016\AccessControls\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\obj\x64\Debug\ServiceApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\bin\x64\Debug\ServiceApp.exe
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\bin\x64\Debug\Contracts.dll
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ServiceApp\bin\x64\Debug\Contracts.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.exe
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\ServiceApp.exe
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\Contracts.dll
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\Contracts.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.csprojResolveAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\ServiceApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\ServiceApp.exe.config
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\ServiceApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\SecurityManager.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\obj\x64\Debug\ServiceApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\ServiceApp.exe.config
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\ServiceApp.exe.config
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.exe.config
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.exe.config
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\ServiceApp.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\bin\x64\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.exe
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ServiceApp\obj\x64\Debug\ServiceApp.pdb

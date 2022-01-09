@@ -1,0 +1,50 @@
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\Contracts\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\Contracts\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\Contracts\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\Contracts\obj\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\Contracts\obj\x64\Debug\Contracts.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\Contracts\bin\x64\Debug\Contracts.dll
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\Contracts\bin\x64\Debug\Contracts.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\Contracts\obj\x64\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\Contracts\obj\x64\Debug\Contracts.dll
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\Contracts\obj\x64\Debug\Contracts.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\Contracts\bin\x64\Debug\Contracts.dll
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\Contracts\bin\x64\Debug\Contracts.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.csprojResolveAssemblyReference.cache
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.dll
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\Contracts\bin\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\Contracts\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\Contracts\obj\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\Contracts\bin\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\Contracts\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\Contracts\obj\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\Contracts\obj\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\Contracts\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\Contracts\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\Contracts\obj\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\Contracts\obj\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\Contracts\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\Contracts\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\Contracts\obj\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\Contracts\obj\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\Contracts\obj\x64\Debug\Contracts.pdb

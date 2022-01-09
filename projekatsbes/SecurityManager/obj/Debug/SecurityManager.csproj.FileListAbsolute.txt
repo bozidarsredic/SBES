@@ -1,0 +1,44 @@
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.AuditEventFile.resources
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.RoleConfigFile.resources
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.csproj.GenerateResource.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\bin\Debug\SecurityManager.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\bin\Debug\SecurityManager.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\SecurityManager\obj\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\bin\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\bin\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.AuditEventFile.resources
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.RoleConfigFile.resources
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\SecurityManager\obj\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\bin\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\bin\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\obj\Debug\SecurityManager.AuditEventFile.resources
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\obj\Debug\SecurityManager.RoleConfigFile.resources
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\obj\Debug\SecurityManager.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\obj\Debug\SecurityManager.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\obj\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\SecurityManager\obj\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\bin\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\bin\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.AuditEventFile.resources
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.RoleConfigFile.resources
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\SecurityManager\obj\Debug\SecurityManager.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\bin\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\bin\Debug\SecurityManager.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.AuditEventFile.resources
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.RoleConfigFile.resources
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\SecurityManager\obj\Debug\SecurityManager.pdb

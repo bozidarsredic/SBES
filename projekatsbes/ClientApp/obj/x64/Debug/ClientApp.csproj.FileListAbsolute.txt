@@ -1,0 +1,79 @@
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\bin\x64\Debug\ClientApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\bin\x64\Debug\ClientApp.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\obj\x64\Debug\ClientApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\08 - Autorizacija\Zadatak\AccessControls\ClientApp\obj\x64\Debug\ClientApp.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\bin\x64\Debug\ClientApp.exe
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\bin\x64\Debug\ClientApp.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\bin\x64\Debug\Contracts.dll
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\obj\x64\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\obj\x64\Debug\ClientApp.exe
+C:\Users\Admin\Desktop\VEZBE 2016\Vezba_3\AccessControls_template\ClientApp\obj\x64\Debug\ClientApp.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.csprojResolveAssemblyReference.cache
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.exe
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\ClientApp.exe
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\ClientApp.pdb
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\Contracts.dll
+E:\PREDMETI\SBES\2018-2019\Vezbe\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\ClientApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\ClientApp.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 4 i 5 - Autorizacija i RBAC\Vezba_2_reseno\Vezba_2\ClientApp\obj\x64\Debug\ClientApp.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\bin\x64\Debug\ClientApp.exe.config
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\bin\x64\Debug\ClientApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\bin\x64\Debug\ClientApp.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\bin\x64\Debug\Contracts.dll
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\bin\x64\Debug\Contracts.pdb
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\obj\x64\Debug\ClientApp.csprojAssemblyReference.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\obj\x64\Debug\ClientApp.exe
+E:\POSAO\FAX\SBES\2019-2020\Vezba 7 - Auditing\Vezba_7_template\Vezba_7\ClientApp\obj\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\bin\x64\Debug\ClientApp.exe.config
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\bin\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\bin\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\obj\x64\Debug\ClientApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\obj\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje\ClientApp\obj\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\bin\x64\Debug\ClientApp.exe.config
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\bin\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\bin\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\obj\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\Vezba_8_resenje2\ClientApp\obj\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.exe.config
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BezbednostZaPrijekat\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.exe.config
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\ClientApp.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\Contracts.dll
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\bin\x64\Debug\Contracts.pdb
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.exe
+C:\Users\Lenovo\Desktop\BOZOACO\projekatsbes\ClientApp\obj\x64\Debug\ClientApp.pdb
