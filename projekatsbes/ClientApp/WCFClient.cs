@@ -79,6 +79,20 @@ namespace ClientApp
             return rez3;
         }
 
+        public void CreateFolder(string folderName)
+        {
+            try
+            {
+                factory.CreateFolder(folderName);
+                Console.WriteLine("Create allowed.");
+            }
+            catch (SecurityAccessDeniedException e)
+            {
+                Console.WriteLine("Error while trying to Create. Error message : {0}", e.Message);
+            }
+        }
+
+
 
         //IZNAD METODE
 
