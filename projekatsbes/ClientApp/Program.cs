@@ -55,6 +55,14 @@ namespace ClientApp
                         Console.WriteLine("List:\n");
                         Console.WriteLine(a);
                     }
+                    else if (rez == "2")
+                    {
+                        Console.WriteLine("Enter File name:");
+                        string rez2 = Console.ReadLine();
+                        string b = proxy.ReadFile(rez2);
+                        Console.WriteLine("Content:\n");
+                        Console.WriteLine(b);
+                    }
 
                 }
             }
