@@ -26,11 +26,30 @@ namespace ClientApp
             EndpointAddress endpointAddress = new EndpointAddress(new Uri(address),
                 EndpointIdentity.CreateUpnIdentity("wcfServer"));
 
-         
+            while (true)
+            {
+                Console.WriteLine("Enter the number to select the method:");
+                Console.WriteLine("1. Show Folder Content");
+                Console.WriteLine("2. Read File");
+                Console.WriteLine("3. Create Folder");
+                Console.WriteLine("4. Create File");
+                Console.WriteLine("5. Delete");
+                Console.WriteLine("6. Rename");
+                Console.WriteLine("7. Move To");
+                Console.WriteLine("Enter q to exit");
+                Console.WriteLine("Number:");
+                string rez = Console.ReadLine();
+                if (rez == "q") break;
+                Console.WriteLine("-------------");
 
 
 
-			Console.ReadLine();
+                using (WCFClient proxy = new WCFClient(binding, endpointAddress))
+                {
+
+                }
+            }
+                    Console.ReadLine();
 		}
 	}
 }
