@@ -12,6 +12,8 @@ namespace Contracts
     public interface IWCFService
     {
 
+
+
         [OperationContract]
         [FaultContract(typeof(SecurityException))]
         string ReadFile(string fileName);
